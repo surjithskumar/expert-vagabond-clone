@@ -24,3 +24,17 @@ p a:hover{
     color: orange;
     text-decoration: orange underline;
 }
+.col-4{
+    justify-content: center;
+}
+.col-4 img{
+    width: 75%;
+}
+.col-4 a{
+    text-decoration: none;
+    color: orange;
+}
+.col-4 h4{
+    text-align : center;
+    margin-top: 40px;
+}
