@@ -1,15 +1,24 @@
 .navbar{
     background-color: rgb(33, 32, 32);
-    border-bottom-color: 10px orange;
+    border-bottom: 4px solid #ff8a00;
 }
 .navbar-brand{
     margin-left: 60px;
 }
-#navbar{
-    color: white;
+.nav-item:hover .dropdown-menu{
+    display:block ;
 }
-hr{
-    width: 100%;
+/*Header*/
+/* Default height for small devices */
+#intro-example {
+    height: 400px;
+}
+
+  /* Height for devices larger than 992px */
+@media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
 }
 h1{
     text-align: center;
@@ -29,6 +38,9 @@ p a:hover{
 }
 .col-4 img{
     width: 75%;
+}
+#img1{
+    margin-left:100px ;
 }
 .col-4 a{
     text-decoration: none;

@@ -23,51 +23,119 @@
 </head>
 <body>
     <!------NAVBAR SECTION----->
-    <nav class="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./images/expert-vagabond-logo-main.png" alt="logos" width="150" height="70">
-          </a>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a href=""><img class="img mx-5" src="./images/expert-vagabond-logo-main.png" alt="logo" width="150" height="70"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                EXPERT VAGABOND
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DESTINATION
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">All TRAVEL BLOGS</a></li>
+                <li><a class="dropdown-item" href="#">AFRICA</a></li>
+                <li><a class="dropdown-item" href="#">ASIA</a></li>
+                <li><a class="dropdown-item" href="#">CARIBBEAN</a></li>
+                <li><a class="dropdown-item" href="#">CENTRAL AMERICA</a></li>
+                <li><a class="dropdown-item" href="#">EUROPE</a></li>
+                <li><a class="dropdown-item" href="#">NORTH AMERICA</a></li>
+                <li><a class="dropdown-item" href="#">MIDDLE EAST</a></li>
+                <li><a class="dropdown-item" href="#">POLAR REGIONS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                TRAVEL TIPS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">BEST TRAVEL TIPS</a></li>
+                <li><a class="dropdown-item" href="#">GET CHEEP FLIGHTS</a></li>
+                <li><a class="dropdown-item" href="#">BOOKING HOTELS</a></li>
+                <li><a class="dropdown-item" href="#">TRAVEL SAFETY</a></li>
+                <li><a class="dropdown-item" href="#">TRAVEL INSURANCE</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                TRAVEL GEAR
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">ULTIMATE TRAVEL <br>PACKING TIPS</a></li>
+                <li><a class="dropdown-item" href="#">BEST TRAVEL <br>BACKPACKS</a></li>
+                <li><a class="dropdown-item" href="#">THE BEST TRAVEL <br> CAMERA</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                NOMADIC LIFE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">DIGITAL NOMAD TIPS</a></li>
+                <li><a class="dropdown-item" href="#">EARN EXTRA INCOME</a></li>
+                <li><a class="dropdown-item" href="#">SAVING MONEY</a></li>
+                <li><a class="dropdown-item" href="#">BEST TRAVEL JOBS</a></li>
+                <li><a class="dropdown-item" href="#">PAID TO TRAVEL</a></li>
+              </ul>
+            </li>
+            <p> </p>
+            <p> </p>
+            <i class="fa-solid fa-magnifying-glass ms-3 pt-2 justify-content-end" style="color: #ffffff;"></i>
+          </ul>
         </div>
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a
-                  data-mdb-dropdown-init
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbar"
-                  role="button"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="#">Action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-     </nav>
+      </div>
+    </nav>
     <!------------------------------------------------------------------------------>
-    <img style="width: 100%;" src="./images/cov.jpg" alt="cover">
+    <header>
+      <!-- Background image -->
+      <div
+        id="intro-example"
+        class="p-5 text-center bg-image"
+        style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');"
+      >
+      <img src="./images/cov.jpg" alt="" width="100%">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+              <h5 class="mb-4">Best & free guide of responsive web design</h5>
+              <a
+                data-mdb-ripple-init
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                role="button"
+                rel="nofollow"
+                target="_blank"
+              >Start tutorial</a
+              >
+              <a
+                data-mdb-ripple-init
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                role="button"
+              >Download MDB UI KIT</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
 
 
     <!-----------------------CONTENT----------------------------------------------> 
     <hr> 
     <div class="row">
-      <h1>Latest Blog Post</h1>
+      <b><h1>Latest Blog Post</h1></b>
         <div class="col-4">
             <a href="https://expertvagabond.com/renting-car-in-mexico/">
-              <img src="./images/blog1.jpg" alt="blog1">
+              <img id="img1" src="./images/blog1.jpg" alt="blog1">
               <h4>
                 Everything you need to know<br>renting car in mexico
               </h4>
